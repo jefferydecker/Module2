@@ -1,5 +1,19 @@
+"""
+Program: camper_age_input.py
+Author: Jeffery Decker jefferydecker@gmail.com jmdecker1@dmacc.edu
+Last date modified: 06/04/2020
+
+
+The purpose of this program is to accept any input,
+convert to a integer type as age_in_years, convert to age_in_months
+and output an informational message.
+"""
+
+MONTHS_PER_YEAR = 12
+
+
 def convert_to_months(years):
-    return int(years) * 12
+    return int(years) * MONTHS_PER_YEAR
 
 
 if __name__ == '__main__':
